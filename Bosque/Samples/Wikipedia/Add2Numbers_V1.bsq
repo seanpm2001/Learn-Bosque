@@ -1,0 +1,7 @@
+function add2(x: Int, y: Int): Int {
+    return x + y;
+}
+
+add2(2, 3)     // 5
+add2(x=2, y=3) // 5
+add2(y=2, 5)   // 7
